@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- script -->
+    <script defer src="./js/script.js"></script>
+
+    <!-- Lobster Two font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+
+    <title>Word Counter</title>
+</head>
+
+<body>
+    <div id="bg">
+        <div id="bg1" ><img src="../images/background1.jpeg" alt=""class="image"></div>
+        <div id="bg2" ><img src="../images/background2.jpeg" alt=""class="image"></div>
+        <div id="bg3" ><img src="../images/background3.jpeg" alt=""class="image"></div>
+        <div id="bg4" ><img src="../images/background4.jpeg" alt=""class="image"></div>
+        <div id="custom" ><input id="palette" oninput="colorSelected(this)" type="color"></div>
+        
+    </div>
+    <div id="word">
+        <h1 class="clr">Word Counter</h1>
+        <div>
+            <textarea name="text" id="text" placeholder="Type something..."></textarea>
+            <div id="count"class="clr">
+                <span id="wd">0</span> Words and
+                <span id="ch">0</span> Characters...
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+/* word counter */
+
+body {
+    background: url("../images/background1.jpeg") no-repeat center center/cover;
+}
+
+/* body::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3; 
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+} */
+
+#word {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    background: rgb(54 33 19 / 80%);
+    width: 58.5vw;
+    height: 10vh;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+    /* padding: 10px 0px 0px 0px; */
+    font-size: 48px;
+    color: white;
+    border-radius: 4px;
+}
+
+#text {
+    border: 2px solid black;
+    border-radius: 4px;
+    resize: none;
+    margin: 0;
+    width: 58vw;
+    height: 30vh;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+#count {
+    border-radius: 4px;
+    font-family: cursive;
+    text-align: center;
+    background: rgb(54 33 19 / 80%);
+    width: 58.5vw;
+    height: 6vh;
+    margin: -4px 0px 0px 0px;
+    /* padding: 5px 0px 0px 0px; */
+    font-size: 24px;
+    color: white;
+}
+
+/* Background Convertor */
+
+#bg {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20vh;
+    margin-top: -1vh;
+}
+
+.image {
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 48px;
+    margin: 2px;
+}
+
+#palette {
+    border: 2px solid black;
+    height: 33px;
+    width: 33px;
+    border-radius: 48px;
+    margin: 0px 2px;
+    border-radius: 24px;
+}
